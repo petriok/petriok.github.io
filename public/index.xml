@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IoT On The Edge</title>
+    <link>https://petriok.github.io/</link>
+    <description>Recent content on IoT On The Edge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Oct 2020 12:32:21 +0200</lastBuildDate>
+    
+	<atom:link href="https://petriok.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Custom Development Board</title>
+      <link>https://petriok.github.io/posts/custom-development-board/</link>
+      <pubDate>Sat, 31 Oct 2020 12:32:21 +0200</pubDate>
+      
+      <guid>https://petriok.github.io/posts/custom-development-board/</guid>
+      <description>Making PCBs Long gone are the days when manufacturing your own PCB was either expensive or tedious. A long time ago I wanted to make my own PCBs and acquired the materials and tooling for it. I needed to print the traces on a transparent film paper, buy photoresist PCBs, UV exposure, etching with Ferric Chloride (with a heater), cleaning, drilling and so on. I did a few PCBs but the end result wasn&amp;rsquo;t that pretty.</description>
+    </item>
+    
+    <item>
+      <title>TensorFlow Lite on Cortex M7</title>
+      <link>https://petriok.github.io/posts/tflite-on-cortex-m7/</link>
+      <pubDate>Wed, 21 Oct 2020 17:23:47 +0300</pubDate>
+      
+      <guid>https://petriok.github.io/posts/tflite-on-cortex-m7/</guid>
+      <description>Just a brief note I have been too busy to dive deep on to analyzing the performance of the TensorFlow Lite micro, but as I already did some prep work I&amp;rsquo;ll just post what I did. My intention still is to take the plunge to the inner workings of TFLite, hopefully sooner than later.
+This post is just a quick follow up to compare TFLite micro to STMCubeAI which I was testing on the previous post.</description>
+    </item>
+    
+    <item>
+      <title>STM CubeAI on Cortex M7</title>
+      <link>https://petriok.github.io/posts/stm-cubeai-on-cortex-m7/</link>
+      <pubDate>Tue, 25 Aug 2020 22:01:35 +0300</pubDate>
+      
+      <guid>https://petriok.github.io/posts/stm-cubeai-on-cortex-m7/</guid>
+      <description>Introduction This post is a brief performance analysis for running machine learning inference (prediction) on a Cortex-M7 microcontroller. I will concentrate here on the micro-optimizations by inspecting the code at assembly level.
+The trained model is borrowed from the benchmarks done by Stupid Projects and adapted to my setup.
+Test setup The MCU under test is an STM32H7 with 2MBytes of flash and 1MByte RAM, running at 480MHz. For an embedded microcontroller, this is truly a high-end device.</description>
+    </item>
+    
+  </channel>
+</rss>
